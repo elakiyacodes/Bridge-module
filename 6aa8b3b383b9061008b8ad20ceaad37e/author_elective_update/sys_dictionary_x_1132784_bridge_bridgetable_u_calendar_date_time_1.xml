@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_calendar_date_time_1" table="x_1132784_bridge_bridgetable">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Closed time</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_calendar_date_time_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1132784_bridge_bridgetable</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="Task" name="task">task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>due_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ</reference_qual>
+        <reference_qual_condition table="task">due_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ<item endquery="false" field="due_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 17:02:46</sys_created_on>
+        <sys_id>d2326800838e061008b8ad20ceaad3d5</sys_id>
+        <sys_name>Closed time</sys_name>
+        <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+        <sys_update_name>sys_dictionary_x_1132784_bridge_bridgetable_u_calendar_date_time_1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 17:10:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</application>
+        <file_path/>
+        <instance_id>5aecfd561b05821819254089bd4bcbfc</instance_id>
+        <instance_name>dev248224</instance_name>
+        <name>sys_dictionary_x_1132784_bridge_bridgetable_u_calendar_date_time_1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_calendar_date_time_1" table="x_1132784_bridge_bridgetable"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Closed time</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_calendar_date_time_1</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1132784_bridge_bridgetable</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="Task" name="task">task</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual>due_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ</reference_qual><reference_qual_condition table="task">due_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ<item endquery="false" field="due_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></reference_qual_condition><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-03 17:02:46</sys_created_on><sys_id>d2326800838e061008b8ad20ceaad3d5</sys_id><sys_name>Closed time</sys_name><sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package><sys_policy/><sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope><sys_update_name>sys_dictionary_x_1132784_bridge_bridgetable_u_calendar_date_time_1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-03 17:10:55</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1603531629</payload_hash>
+        <record_name>Bridges.Closed time</record_name>
+        <reverted_from/>
+        <source>6ea8b3b383b9061008b8ad20ceaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 17:10:55</sys_created_on>
+        <sys_id>d11428c0838e061008b8ad20ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f3f6ffdb40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 17:10:55</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>991428c0a98e06100f12c712935f7692</update_guid>
+        <update_guid_history>991428c0a98e06100f12c712935f7692:-1603531629,46a3ec80a38e0610bfbb2acccff5fe2f:-1228277920,b953e480088e06101886fbe6da41e032:247634257,61c2e440b28e0610ffafe637c214cfbe:-608400290,1632a8001b8e061019537e93669cc510:652191644,1a326800758e0610118e520c68be1eea:-349563295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 17:11:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>043ff53459774400b95c180be6100000</sys_id>
+        <sys_metadata>d2326800838e061008b8ad20ceaad3d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed time</sys_name>
+        <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+        <sys_parent display_value="Bridges">180e77ff83b9061008b8ad20ceaad3e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+        <sys_scope_delete display_value="">02175524c4194ade81f887b2216fe631</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1132784_bridge_bridgetable_u_calendar_date_time_1</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1132784_bridge_bridgetable_u_calendar_date_time_1">d11428c0838e061008b8ad20ceaad393</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 17:11:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
