@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>configuration_item</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Client Script 2</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+
+   if (g_form.getValue('configuration_item', true)) {
+        g_form.setMandatory('category', true);
+    }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 18:24:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88a4b8c483ce061008b8ad20ceaad3c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Client Script 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+        <sys_update_name>sys_script_client_88a4b8c483ce061008b8ad20ceaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 18:24:59</sys_updated_on>
+        <table>x_1132784_bridge_bridgetable</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</application>
+        <file_path/>
+        <instance_id>5aecfd561b05821819254089bd4bcbfc</instance_id>
+        <instance_name>dev248224</instance_name>
+        <name>sys_script_client_88a4b8c483ce061008b8ad20ceaad3c6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;configuration_item&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Client Script 2&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+
+   if (g_form.getValue('configuration_item', true)) {
+        g_form.setMandatory('category', true);
+    }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-03 18:24:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;88a4b8c483ce061008b8ad20ceaad3c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Client Script 2&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Bridge" source="x_1132784_bridge"&gt;6aa8b3b383b9061008b8ad20ceaad37e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bridge"&gt;6aa8b3b383b9061008b8ad20ceaad37e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_88a4b8c483ce061008b8ad20ceaad3c6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-03 18:24:59&lt;/sys_updated_on&gt;&lt;table&gt;x_1132784_bridge_bridgetable&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1302445180</payload_hash>
+        <record_name>Client Script 2</record_name>
+        <reverted_from/>
+        <source>6ea8b3b383b9061008b8ad20ceaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 18:24:59</sys_created_on>
+        <sys_id>2205f48883ce061008b8ad20ceaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f3fb3cf3c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 18:24:59</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e605f48894ce0610196857466a8f9ea1</update_guid>
+        <update_guid_history>e605f48894ce0610196857466a8f9ea1:1302445180,6405f4483cce06103b1d0ae5244bd264:876341084</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 18:26:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>190b733145a74004b485b12e0c2d2110</sys_id>
+        <sys_metadata>88a4b8c483ce061008b8ad20ceaad3c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Client Script 2</sys_name>
+        <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+        <sys_parent display_value="Bridges">180e77ff83b9061008b8ad20ceaad3e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+        <sys_scope_delete display_value="">02175524c4194ade81f887b2216fe631</sys_scope_delete>
+        <sys_update_name>sys_script_client_88a4b8c483ce061008b8ad20ceaad3c6</sys_update_name>
+        <sys_update_version display_value="sys_script_client_88a4b8c483ce061008b8ad20ceaad3c6">2205f48883ce061008b8ad20ceaad3a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 18:26:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

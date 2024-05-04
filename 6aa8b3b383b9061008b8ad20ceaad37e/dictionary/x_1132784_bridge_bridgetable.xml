@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="180e77ff83b9061008b8ad20ceaad3e9" label="Bridges" max_length="40" name="x_1132784_bridge_bridgetable" type="collection">
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Database" value="database"/>
+                <element inactive_on_update="false" label="Hardware" value="hardware"/>
+                <element inactive_on_update="false" label="Network" value="network"/>
+                <element inactive_on_update="false" label="Software" value="software"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Configuration item" mandatory="true" max_length="32" name="configuration_item" reference="cmdb_ci" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="400" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Medium - 2" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High - 1" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="Low - 3" sequence="1" value="low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="journal_input"/>
+        <element default="javascript:getNextObjNumberPadded();" dependent="caller" dependent_on_field="caller" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="32" name="number" read_only="true" reference="task" type="string" use_dependent_field="true" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="200" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="New" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In-Progress" sequence="0" value="in_progress"/>
+                <element inactive_on_update="false" label="Resolved" sequence="1" value="resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Closure code" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sucessfull" sequence="0" value="sucessfull"/>
+                <element inactive_on_update="false" label="Unsuccessful" sequence="1" value="unsuccessful"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Closure time" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments (Customer Visible)" max_length="4000" name="u_journal_1" type="journal"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUser().email" dependent="u_reference_5" dependent_on_field="u_reference_5" dynamic_default_value="ba8f4b76eb330100d4360c505206feb2" label="Email" max_length="32" name="u_reference_5" type="string" use_dependent_field="true" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Work notes" max_length="1000" name="u_string_1" type="journal_input">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Closure reason" max_length="300" name="u_string_3" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="caller"/>
+        </index>
+        <index name="index4">
+            <element name="configuration_item"/>
+        </index>
+        <index name="index5">
+            <element name="number"/>
+        </index>
+        <index name="index6">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index7">
+            <element name="u_reference_5"/>
+        </index>
+    </element>
+</database>

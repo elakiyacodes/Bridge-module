@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1132784_bridge.bridge_admin" name="x_1132784_bridge.bridge_admin">b069f33b83b9061008b8ad20ceaad3e2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 14:04:22</sys_created_on>
+        <sys_id>3c69f33b83b9061008b8ad20ceaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b069f33b83b9061008b8ad20ceaad3e2</sys_name>
+        <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3c69f33b83b9061008b8ad20ceaad3e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 14:04:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

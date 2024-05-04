@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1132784_bridge.bridge_admin</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_1132784_bridge.bridge_admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 14:04:22</sys_created_on>
+        <sys_id>b069f33b83b9061008b8ad20ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1132784_bridge.bridge_admin</sys_name>
+        <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+        <sys_update_name>sys_user_role_b069f33b83b9061008b8ad20ceaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 14:04:22</sys_updated_on>
+    </sys_user_role>
+</record_update>
