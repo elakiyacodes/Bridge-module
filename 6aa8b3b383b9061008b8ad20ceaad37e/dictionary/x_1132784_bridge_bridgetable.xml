@@ -13,10 +13,11 @@
         </element>
         <element attributes="encode_utf8=false" label="Configuration item" mandatory="true" max_length="32" name="configuration_item" reference="cmdb_ci" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="400" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Medium - 2" label="Impact" max_length="40" name="impact" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="medium - 2" label="Impact" max_length="40" name="impact" type="choice">
             <choice>
                 <element inactive_on_update="false" label="High - 1" sequence="0" value="high"/>
-                <element inactive_on_update="false" label="Low - 3" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Medium - 2" sequence="1" value="medium - 2"/>
+                <element inactive_on_update="false" label="Low - 3" sequence="2" value="low"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="journal_input"/>
@@ -31,6 +32,13 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="low" label="Priority" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 - Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="3 - High" sequence="2" value="high"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Closure code" max_length="40" name="u_choice_2" type="string">
             <choice>
                 <element inactive_on_update="false" label="Sucessfull" sequence="0" value="sucessfull"/>
