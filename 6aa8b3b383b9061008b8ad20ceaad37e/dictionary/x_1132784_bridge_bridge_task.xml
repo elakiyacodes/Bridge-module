@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c8dcc738834a4a1008b8ad20ceaad39b" extends="task" label="Bridge Task" max_length="40" name="x_1132784_bridge_bridge_task" type="collection"/>
+</database>
