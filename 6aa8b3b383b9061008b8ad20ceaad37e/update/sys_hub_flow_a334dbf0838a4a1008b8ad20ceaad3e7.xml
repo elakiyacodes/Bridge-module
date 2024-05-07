@@ -18,7 +18,7 @@
         <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Bridge Task Record","reference":"x_1132784_bridge_bridge_task","reference_display":"Bridge Task","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"089f9984-39bf-4956-8c9f-dae42cc7636a":["record"],"63d63c7c-3310-4b8d-8fb6-ddb625b3fe90":["record"]},"attributes":null},{"name":"Created_1.current.assigned_to.manager","label":"Trigger - Record Created➛Bridge Task Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"63d63c7c-3310-4b8d-8fb6-ddb625b3fe90":["approval_conditions"]},"attributes":null}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Bridge - 2 test</name>
+        <name>Bridge fulfillment</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -35,15 +35,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a334dbf0838a4a1008b8ad20ceaad3e7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Bridge - 2 test</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Bridge fulfillment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
         <sys_update_name>sys_hub_flow_a334dbf0838a4a1008b8ad20ceaad3e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-06 14:21:06</sys_updated_on>
+        <sys_updated_on>2024-05-07 07:55:02</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a334dbf0838a4a1008b8ad20ceaad3e7"/>
@@ -52,16 +52,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Bridge - 2 test">a334dbf0838a4a1008b8ad20ceaad3e7</flow>
+        <flow display_value="Bridge fulfillment">a334dbf0838a4a1008b8ad20ceaad3e7</flow>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-06 13:56:40</sys_created_on>
         <sys_id>51645bf0838a4a1008b8ad20ceaad3e4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-06 14:15:23</sys_updated_on>
+        <sys_updated_on>2024-05-06 17:43:05</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -151,7 +151,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Bridge - 2 test">a334dbf0838a4a1008b8ad20ceaad3e7</model>
+        <model display_value="Bridge fulfillment">a334dbf0838a4a1008b8ad20ceaad3e7</model>
         <model_id>a334dbf0838a4a1008b8ad20ceaad3e7</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_a334dbf0838a4a1008b8ad20ceaad3e7</name>
@@ -235,7 +235,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Bridge - 2 test">a334dbf0838a4a1008b8ad20ceaad3e7</model>
+        <model display_value="Bridge fulfillment">a334dbf0838a4a1008b8ad20ceaad3e7</model>
         <model_id>a334dbf0838a4a1008b8ad20ceaad3e7</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_a334dbf0838a4a1008b8ad20ceaad3e7</name>
@@ -291,7 +291,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Bridge - 2 test">a334dbf0838a4a1008b8ad20ceaad3e7</flow>
+        <flow display_value="Bridge fulfillment">a334dbf0838a4a1008b8ad20ceaad3e7</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -299,10 +299,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-06 13:56:55</sys_created_on>
         <sys_id>81741b34838a4a1008b8ad20ceaad319</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-06 14:21:01</sys_updated_on>
+        <sys_updated_on>2024-05-07 07:54:52</sys_updated_on>
         <ui_id>089f9984-39bf-4956-8c9f-dae42cc7636a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=81741b34838a4a1008b8ad20ceaad319"/>
@@ -382,7 +382,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Bridge - 2 test">a334dbf0838a4a1008b8ad20ceaad3e7</flow>
+        <flow display_value="Bridge fulfillment">a334dbf0838a4a1008b8ad20ceaad3e7</flow>
         <generation_source/>
         <order>2</order>
         <parent_ui_id/>
@@ -390,10 +390,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-06 13:58:17</sys_created_on>
         <sys_id>fcc49374838a4a1008b8ad20ceaad3ea</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-06 14:15:27</sys_updated_on>
+        <sys_updated_on>2024-05-06 17:43:15</sys_updated_on>
         <ui_id>63d63c7c-3310-4b8d-8fb6-ddb625b3fe90</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fcc49374838a4a1008b8ad20ceaad3ea"/>
