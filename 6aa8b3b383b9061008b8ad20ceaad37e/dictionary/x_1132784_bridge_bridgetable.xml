@@ -46,7 +46,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Closure time" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Additional comments (Customer Visible)" max_length="4000" name="u_journal_1" type="journal"/>
-        <element attributes="encode_utf8=false" default="javascript:gs.getUser().email" dependent="u_reference_5" dependent_on_field="u_reference_5" dynamic_default_value="ba8f4b76eb330100d4360c505206feb2" label="Email" max_length="32" name="u_reference_5" type="string" use_dependent_field="true" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUser().email" dependent="u_reference_5" dependent_on_field="u_reference_5" dynamic_default_value="6aef084183ce4a1008b8ad20ceaad354" label="Email" max_length="32" name="u_reference_5" type="string" use_dependent_field="true" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="2" label="Work notes" max_length="1000" name="u_string_1" type="journal_input">
             <choice/>
         </element>
