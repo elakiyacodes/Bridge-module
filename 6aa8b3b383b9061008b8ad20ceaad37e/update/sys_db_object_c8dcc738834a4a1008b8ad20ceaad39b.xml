@@ -6,7 +6,7 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
@@ -22,15 +22,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-06 13:24:08</sys_created_on>
         <sys_id>c8dcc738834a4a1008b8ad20ceaad39b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Bridge Task</sys_name>
         <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
         <sys_update_name>sys_db_object_c8dcc738834a4a1008b8ad20ceaad39b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-06 13:24:08</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_on>2024-05-07 09:15:35</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_1132784_bridge.bridge_task_user" name="x_1132784_bridge.bridge_task_user">24fc0778834a4a1008b8ad20ceaad33c</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

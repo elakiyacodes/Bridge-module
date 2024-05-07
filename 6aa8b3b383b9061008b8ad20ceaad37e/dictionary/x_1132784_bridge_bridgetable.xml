@@ -31,6 +31,7 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Task number" mandatory="true" max_length="32" name="task_number" reference="x_1132784_bridge_bridge_task" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="low" label="Priority" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element inactive_on_update="false" label="1 - Low" sequence="0" value="low"/>
@@ -70,6 +71,9 @@
             <element name="sys_class_name"/>
         </index>
         <index name="index7">
+            <element name="task_number"/>
+        </index>
+        <index name="index8">
             <element name="u_reference_5"/>
         </index>
     </element>

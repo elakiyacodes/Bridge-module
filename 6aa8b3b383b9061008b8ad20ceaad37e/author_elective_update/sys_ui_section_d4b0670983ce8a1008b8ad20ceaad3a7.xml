@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Related Lists" section_id="d4b0670983ce8a1008b8ad20ceaad3a7" sys_domain="global" table="x_1132784_bridge_bridgetable" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 09:28:53</sys_created_on>
+            <sys_id>20b0670983ce8a1008b8ad20ceaad3ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Lists" display_value="Related Lists" name="x_1132784_bridge_bridgetable" sys_domain="global" view="Default view">d4b0670983ce8a1008b8ad20ceaad3a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 09:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 09:28:53</sys_created_on>
+            <sys_id>28b0670983ce8a1008b8ad20ceaad3ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Lists" display_value="Related Lists" name="x_1132784_bridge_bridgetable" sys_domain="global" view="Default view">d4b0670983ce8a1008b8ad20ceaad3a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 09:28:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Related Lists</caption>
+            <header>false</header>
+            <name>x_1132784_bridge_bridgetable</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 09:28:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4b0670983ce8a1008b8ad20ceaad3a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1132784_bridge_bridgetable</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+            <sys_update_name>sys_ui_section_d4b0670983ce8a1008b8ad20ceaad3a7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 09:28:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</application>
+        <file_path/>
+        <instance_id>5aecfd561b05821819254089bd4bcbfc</instance_id>
+        <instance_name>dev248224</instance_name>
+        <name>sys_ui_section_d4b0670983ce8a1008b8ad20ceaad3a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Related Lists" section_id="d4b0670983ce8a1008b8ad20ceaad3a7" sys_domain="global" table="x_1132784_bridge_bridgetable" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>task_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-07 09:28:53</sys_created_on><sys_id>20b0670983ce8a1008b8ad20ceaad3ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related Lists" display_value="Related Lists" name="x_1132784_bridge_bridgetable" sys_domain="global" view="Default view">d4b0670983ce8a1008b8ad20ceaad3a7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-07 09:28:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-07 09:28:53</sys_created_on><sys_id>28b0670983ce8a1008b8ad20ceaad3ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related Lists" display_value="Related Lists" name="x_1132784_bridge_bridgetable" sys_domain="global" view="Default view">d4b0670983ce8a1008b8ad20ceaad3a7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-07 09:28:53</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Related Lists</caption><header>false</header><name>x_1132784_bridge_bridgetable</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-07 09:28:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d4b0670983ce8a1008b8ad20ceaad3a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1132784_bridge_bridgetable</sys_name><sys_overrides/><sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package><sys_policy/><sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope><sys_update_name>sys_ui_section_d4b0670983ce8a1008b8ad20ceaad3a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-07 09:28:53</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1440793210</payload_hash>
+        <record_name>Bridges</record_name>
+        <reverted_from/>
+        <source>3c0213c1838e8a1008b8ad20ceaad3d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-07 09:28:53</sys_created_on>
+        <sys_id>68b0a70983ce8a1008b8ad20ceaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f52626f790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 09:28:53</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ecb0a70920ce8a10673c7d7fad7e1a00</update_guid>
+        <update_guid_history>ecb0a70920ce8a10673c7d7fad7e1a00:-1440793210</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-07 09:47:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3cecd52060344cba95e37ea0437b02e4</sys_id>
+        <sys_metadata>d4b0670983ce8a1008b8ad20ceaad3a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related Lists</sys_name>
+        <sys_package display_value="Bridge" source="x_1132784_bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_package>
+        <sys_parent display_value="Bridges">180e77ff83b9061008b8ad20ceaad3e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bridge">6aa8b3b383b9061008b8ad20ceaad37e</sys_scope>
+        <sys_scope_delete display_value="">02175524c4194ade81f887b2216fe631</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d4b0670983ce8a1008b8ad20ceaad3a7</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d4b0670983ce8a1008b8ad20ceaad3a7">68b0a70983ce8a1008b8ad20ceaad301</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 09:47:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
